@@ -466,7 +466,23 @@ input{
     color: #040a41;
     accent-color: #080b9b;
 }
+#submit-btn{
+    width: 120px;
+    padding: 15px 0;
+    border-radius: 0.8em;
+    font-size: 20px;
+    font-weight: 700;
+    background:  var(--gradient-2, linear-gradient(130deg, rgb(60, 46, 255) 0%, rgb(44, 80, 243) 70%));
+    text-transform: uppercase;
+    border: none;
+    scale: 0.8;
+    transition: all 0.3s ease;
+    color: rgb(209, 208, 208);
+}
+#submit-btn:hover{
+    scale: 1;
 
+}
 
 
 /*footer*/
